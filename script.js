@@ -3,7 +3,7 @@ var lat;
 var long;
 var fTemp;
 var cTemp;
-  $.getJSON("http://ip-api.com/json", function(data2){
+  $.getJSON("https://ip-api.com/json", function(data2){
     lat = data2.lat;
     long= data2.lon;
      
