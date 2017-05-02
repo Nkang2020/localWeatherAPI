@@ -3,9 +3,11 @@ var lat;
 var long;
 var fTemp;
 var cTemp;
+
   $.getJSON("https://ipapi.co/json/", function(data2){
     lat = data2.latitude;
     long= data2.longitude;
+
      
     var api= "http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&appid=a0021476b75389ad37c9b7d0b0ef71e2"    
   $.getJSON(api, function(data){
