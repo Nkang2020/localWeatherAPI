@@ -42,7 +42,6 @@ var cTemp;
         tempSwap = true;
       }
       else{
-        $("#fTemp").html(fTemp+" &#8457;");
         $("#fTemp").html(cTemp+" &#8451;");
         tempSwap=false;
       }
