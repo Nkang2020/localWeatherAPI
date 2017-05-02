@@ -7,7 +7,7 @@ var cTemp;
     lat = data2.lat;
     long= data2.lon;
      
-    var api= "http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&appid=a0021476b75389ad37c9b7d0b0ef71e2"    
+    var api= "https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&appid=a0021476b75389ad37c9b7d0b0ef71e2"    
   $.getJSON(api, function(data){
   //alert(data.coord.lat);
     var city = data.name;
